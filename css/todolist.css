@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing:border-box ;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', 'Poppins', sans-serif ;
+    color: white;
+}
+
+body {
+
+    background-color: rgb(71, 69, 71) ;
+    background-image:  linear-gradient(to right, #2161a4 , #662f09);
+
+}
+.main-section{
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+    align-items: center;
+    justify-content: center;
+}
+.todo button{
+    min-width: 100px;
+    min-height: 40px;
+    background-color: green;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.todo input{
+    min-width: 250px;
+    min-height: 40px;
+    background-color: rgb(192, 197, 192);
+    border-radius: 20px;
+    font-weight: 600;
+    padding: 10px;
+    font-size: medium;
+    align-self: center;
+    color: rgb(42, 32, 32);
+}
+.display-item{
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+.display-item button{
+    min-width: 100px;
+    min-height: 40px;
+    background-color: rgb(233, 39, 9);
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.output ul{
+    display: flex;
+    margin: 10px auto;
+
+}
+.output ul button{
+    align-self:flex-end;
+    color: aqua;
+    size: 1em;
+    column-gap: 5px;
+    justify-self: unset;
+    float: right;
+    margin: auto 100px;
+    cursor: pointer;
+
+}
